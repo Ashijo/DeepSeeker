@@ -3,6 +3,7 @@
         xmlns:vm="using:DeepSeeker.AvaloniaUI.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:DeepSeeker.AvaloniaUI.Models"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="DeepSeeker.AvaloniaUI.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
@@ -15,10 +16,26 @@
     <vm:MainWindowViewModel />
   </Design.DataContext>
 
-  <StackPanel>
-    <ListBox ItemsSource="{Binding Items}" Height="800" />
-    <TextBox Name="Entry" Watermark="Bonjour :)" />
-    <Button Name="Submit" Content="Submit" Click="HandleSubmit" HotKey="Enter" />
-  </StackPanel>
-  
+  <Grid RowDefinitions="90*, 3, 10*">
+    <ListBox Grid.Row="0" ItemsSource="{Binding Items}">
+      <ListBox.ItemTemplate>
+        <DataTemplate DataType="models:ChatText">
+          <Border 
+            BorderThickness="1" 
+            CornerRadius="4" 
+            Padding="4"
+            Classes.BorderColor="{Binding Origin }"
+            >
+            <TextBlock Text="{Binding Text}" />
+          </Border>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+    
+    <GridSplitter Grid.Row="1" Background="Black" ResizeDirection="Rows"></GridSplitter>
+
+    <TextBox Grid.Row="2" Name="Entry" />
+  </Grid>
+
+
 </Window>
