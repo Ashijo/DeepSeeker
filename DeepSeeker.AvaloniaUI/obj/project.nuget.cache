@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a7Z9oP73i2o=",
+  "dgSpecHash": "ZLCF8dHub6A=",
   "success": true,
-  "projectFilePath": "/home/ashijo/Git/DeepSeeker/DeepSeeker/DeepSeeker.AvaloniaUI/DeepSeeker.AvaloniaUI.csproj",
+  "projectFilePath": "/home/ashijo/Git/DeepSeeker/DeepSeeker.AvaloniaUI/DeepSeeker.AvaloniaUI.csproj",
   "expectedPackageFiles": [
     "/home/ashijo/.nuget/packages/avalonia/11.2.1/avalonia.11.2.1.nupkg.sha512",
     "/home/ashijo/.nuget/packages/avalonia.angle.windows.natives/2.1.22045.20230930/avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",
@@ -26,6 +26,7 @@
     "/home/ashijo/.nuget/packages/harfbuzzsharp.nativeassets.macos/7.3.0.2/harfbuzzsharp.nativeassets.macos.7.3.0.2.nupkg.sha512",
     "/home/ashijo/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/7.3.0.3-preview.2.2/harfbuzzsharp.nativeassets.webassembly.7.3.0.3-preview.2.2.nupkg.sha512",
     "/home/ashijo/.nuget/packages/harfbuzzsharp.nativeassets.win32/7.3.0.2/harfbuzzsharp.nativeassets.win32.7.3.0.2.nupkg.sha512",
+    "/home/ashijo/.nuget/packages/material.avalonia/3.9.2/material.avalonia.3.9.2.nupkg.sha512",
     "/home/ashijo/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
     "/home/ashijo/.nuget/packages/skiasharp/2.88.8/skiasharp.2.88.8.nupkg.sha512",
     "/home/ashijo/.nuget/packages/skiasharp.nativeassets.linux/2.88.8/skiasharp.nativeassets.linux.2.88.8.nupkg.sha512",

@@ -24,6 +24,10 @@
 /home/ashijo/.nuget/packages/avalonia.x11/11.2.1/lib/net8.0/Avalonia.X11.dll
 /home/ashijo/.nuget/packages/communitytoolkit.mvvm/8.2.1/lib/net6.0/CommunityToolkit.Mvvm.dll
 /home/ashijo/.nuget/packages/harfbuzzsharp/7.3.0.2/lib/net6.0/HarfBuzzSharp.dll
+/home/ashijo/.nuget/packages/material.avalonia/3.9.2/lib/net8.0/Material.Avalonia.dll
+/home/ashijo/.nuget/packages/material.avalonia/3.9.2/lib/net8.0/Material.Colors.dll
+/home/ashijo/.nuget/packages/material.avalonia/3.9.2/lib/net8.0/Material.Ripple.dll
+/home/ashijo/.nuget/packages/material.avalonia/3.9.2/lib/net8.0/Material.Styles.dll
 /home/ashijo/.nuget/packages/microcom.runtime/0.11.0/lib/net5.0/MicroCom.Runtime.dll
 /home/ashijo/.nuget/packages/microsoft.netcore.app.ref/8.0.12/ref/net8.0/Microsoft.CSharp.dll
 /home/ashijo/.nuget/packages/microsoft.netcore.app.ref/8.0.12/ref/net8.0/Microsoft.VisualBasic.Core.dll
