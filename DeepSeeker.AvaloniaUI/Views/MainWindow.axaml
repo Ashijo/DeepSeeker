@@ -20,18 +20,13 @@
     <ListBox Grid.Row="0" ItemsSource="{Binding Items}">
       <ListBox.ItemTemplate>
         <DataTemplate DataType="models:ChatText">
-          <Border 
-            BorderThickness="1" 
-            CornerRadius="4" 
-            Padding="4"
-            Classes.BorderColor="{Binding Origin }"
-            >
-            <TextBlock Text="{Binding Text}" />
-          </Border>
+          <TextBlock>
+            <Run Text="{Binding Text}" Foreground="{Binding Color}" />
+          </TextBlock>
         </DataTemplate>
       </ListBox.ItemTemplate>
     </ListBox>
-    
+
     <GridSplitter Grid.Row="1" Background="Black" ResizeDirection="Rows"></GridSplitter>
 
     <TextBox Grid.Row="2" Name="Entry" />

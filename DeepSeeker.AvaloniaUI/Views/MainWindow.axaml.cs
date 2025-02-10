@@ -28,9 +28,6 @@ public partial class MainWindow : Window {
         };
     }
 
-    private void HandleBorderColor() {
-        
-    }
 
     private void PostEntry() {
         var entryVal = _entry.Text ?? "";
@@ -41,6 +38,7 @@ public partial class MainWindow : Window {
 
         var newText = new ChatText(ChatOrigin.User, ChatType.Message, entryVal);
         _castedDataContext.Items.Add(newText);
+        
 
         _entry!.Text = "";
     }

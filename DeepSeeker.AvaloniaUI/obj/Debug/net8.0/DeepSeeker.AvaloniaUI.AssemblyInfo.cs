@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeepSeeker.AvaloniaUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5539b67bb5572bfe6ca8074f09035c9bb70c4de4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33b4052c1d6e07ceca0fc61fa8e3217fcb3656cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeepSeeker.AvaloniaUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeepSeeker.AvaloniaUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

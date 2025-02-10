@@ -11,7 +11,7 @@ public class MainWindowViewModel : ViewModelBase {
         get { return _items; }
         set { SetProperty(ref _items, value); }
     }
-
+    
     public MainWindowViewModel() {
         Items = [];
     }
