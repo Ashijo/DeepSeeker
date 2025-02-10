@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="DeepSeeker.AvaloniaUI/App.axaml" value="DeepSeeker.AvaloniaUI/DeepSeeker.AvaloniaUI.csproj" />
+        <entry key="DeepSeeker.AvaloniaUI/Views/MainWindow.axaml" value="DeepSeeker.AvaloniaUI/DeepSeeker.AvaloniaUI.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
