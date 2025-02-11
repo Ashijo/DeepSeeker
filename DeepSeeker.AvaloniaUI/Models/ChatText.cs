@@ -1,6 +1,5 @@
 using System;
 using Avalonia.Media;
-using Avalonia.Media.Immutable;
 
 namespace DeepSeeker.AvaloniaUI.Models;
 
